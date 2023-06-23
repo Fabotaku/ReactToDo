@@ -19,7 +19,7 @@ function App() {
   return (
     <div className='main-container'>
       <div className='add-container'>
-        <h1>Agregar To Do</h1>
+        <h1 className='create-new-task'>Create new task</h1>
         <div className='add-container-button'>
           <CreateTodoButton />
         </div>

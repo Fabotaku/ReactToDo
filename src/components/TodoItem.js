@@ -16,7 +16,10 @@ function TodoItem(props) {
         <img src={check} alt='check' className={`check ${isCompleted ? 'completed' : ''}`} />
       </a>
       <span className={`text ${isCompleted ? 'completed' : ''}`}>{props.text}</span>
-      <img src={x} alt='x' className='x' />
+      <div className='x-image-container'>
+        <img src={x} alt='x' className='x' />
+      </div>
+
       <br />
       <br />
     </div>
